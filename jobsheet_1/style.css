@@ -1,0 +1,15 @@
+body {
+    background-color: black;
+}
+
+#nama {
+    color: #9A2A53;
+    text-align: center;
+}
+
+.bio {
+    color: cyan;
+}
+.bio2 {
+    color: blueviolet;
+}
