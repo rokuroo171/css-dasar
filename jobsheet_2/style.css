@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    font-family: Segoe UI;
+}
+
+#nama {
+    color: #9A2A53;
+    text-align: center;
+    font-weight: 50;
+    font-size: 41px;
+    background-color: azure;
+}
+
+.bio {
+    color: blueviolet;
+    text-align: justify;
+    line-height: 1.8;
+}
