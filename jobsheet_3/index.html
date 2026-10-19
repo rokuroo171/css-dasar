@@ -1,100 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Crave & Co.</title>
+    <title>Crave & Co. | Camilan Pilihan</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
-        <div class="logo">Logo</div>
+        <a class="logo" href="#home">Crave & Co.</a>
         <div class="menus">
-            <a href="#Home">Home</a>
-            <a href="#Produk">Produk</a>
-            <a href="#About">About</a>
+            <a href="#home">Beranda</a>
+            <a href="#produk">Produk</a>
+            <a href="#tentang">Tentang</a>
         </div>
     </nav>
     
     <header>
-        <section class="hero">
+        <section class="hero" id="home">
             <div class="hero-content">
-                <h1>Produk Teratas</h1>
-                <p>Jelajahi toko kami dan temukan sesuatu yang cocok untuk Anda.</p>
-                <a class="hero-cta" href="#Produk">Jelajahi Produk</a>
+                <h1>Jeda kecil, rasa istimewa.</h1>
+                <p>Cokelat, kudapan renyah, dan camilan manis pilihan untuk menemani waktu santai.</p>
+                <a class="hero-cta" href="#produk">Lihat koleksi</a>
             </div>
             <div class="hero-image">
-                <img src="assets/hero.png" alt="Promote Hero Product Image">
+                <img src="assets/hero.jpg" alt="Aneka pastry, buah, dan macarons tersaji di atas meja">
             </div>
         </section>
 
-        <section class="gallery" id="Produk">
-            <h3>Galeri Produk</h3>
+        <section class="gallery" id="produk">
+            <h3>Pilihan camilan</h3>
+            <p class="gallery-intro">Camilan manis dan gurih untuk menemani waktu santai.</p>
             <div class="container">
-                <div class="card1">
-                    <img src="assets/produk1.jpg" alt="Produk 1">
-                    <p class="nama-produk">Hash brown cat</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
-                <div class="card2">
-                    <img src="assets/produk2.jpg" alt="Produk 2">
-                    <p class="nama-produk">A</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
-                <div class="card3">
-                    <img src="assets/produk3.jpg" alt="Produk 3">
-                    <p class="nama-produk">B</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
-                <div class="card4">
-                    <img src="assets/produk4.jpg" alt="Produk 4">
-                    <p class="nama-produk">C</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
-                <div class="card5">
-                    <img src="assets/produk5.jpg" alt="Produk 5">
-                    <p class="nama-produk">D</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
-                <div class="card6">
-                    <img src="assets/produk6.jpg" alt="Produk 6">
-                    <p class="nama-produk">E</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
-                <div class="card7">
-                    <img src="assets/produk7.jpg" alt="Produk 7">
-                    <p class="nama-produk">F</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
-                <div class="card8">
-                    <img src="assets/produk8.jpg" alt="Produk 8">
-                    <p class="nama-produk">G</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
-                <div class="card9">
-                    <img src="assets/produk9.jpg" alt="Produk 9">
-                    <p class="nama-produk">H</p>
-                    <p class="harga-produk">Rp 67.000</p>
-                    <button class="beli">Beli boskyuh</button>
-                </div>
+                <article class="product-card">
+                    <img src="assets/produk1.jpg" alt="Potongan cokelat dengan kacang dan buah kering" loading="lazy">
+                    <h4 class="nama-produk">Cocoa Bark</h4>
+                    <p class="deskripsi-produk">Cokelat dengan kacang dan buah kering.</p>
+                    <p class="harga-produk">Rp 42.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
+                <article class="product-card">
+                    <img src="assets/produk2.jpg" alt="Dango dengan saus manis di atas piring" loading="lazy">
+                    <h4 class="nama-produk">Dango</h4>
+                    <p class="deskripsi-produk">Kue beras lembut dengan saus manis.</p>
+                    <p class="harga-produk">Rp 35.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
+                <article class="product-card">
+                    <img src="assets/produk3.jpg" alt="Camilan yogurt kering dalam stoples" loading="lazy">
+                    <h4 class="nama-produk">Yogurt Crisps</h4>
+                    <p class="deskripsi-produk">Yogurt kering dengan tekstur ringan.</p>
+                    <p class="harga-produk">Rp 38.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
+                <article class="product-card">
+                    <img src="assets/produk4.jpg" alt="Aneka wafer dan cokelat" loading="lazy">
+                    <h4 class="nama-produk">Wafer Bites</h4>
+                    <p class="deskripsi-produk">Wafer renyah yang berlapis cokelat.</p>
+                    <p class="harga-produk">Rp 31.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
+                <article class="product-card">
+                    <img src="assets/produk5.jpg" alt="Popcorn renyah" loading="lazy">
+                    <h4 class="nama-produk">Caramel Popcorn</h4>
+                    <p class="deskripsi-produk">Popcorn manis dengan lapisan karamel.</p>
+                    <p class="harga-produk">Rp 29.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
+                <article class="product-card">
+                    <img src="assets/produk6.jpg" alt="Cookies cokelat dengan taburan garam" loading="lazy">
+                    <h4 class="nama-produk">Choco Cookies</h4>
+                    <p class="deskripsi-produk">Cookies renyah dengan potongan cokelat.</p>
+                    <p class="harga-produk">Rp 33.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
+                <article class="product-card">
+                    <img src="assets/produk7.jpg" alt="Campuran kacang dan buah kering" loading="lazy">
+                    <h4 class="nama-produk">Nut Mix</h4>
+                    <p class="deskripsi-produk">Kacang pilihan dengan buah kering.</p>
+                    <p class="harga-produk">Rp 39.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
+                <article class="product-card">
+                    <img src="assets/produk8.jpg" alt="Gummy berbentuk beruang warna-warni" loading="lazy">
+                    <h4 class="nama-produk">Fruit Gummies</h4>
+                    <p class="deskripsi-produk">Gummy kenyal dengan rasa buah.</p>
+                    <p class="harga-produk">Rp 26.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
+                <article class="product-card">
+                    <img src="assets/produk9.jpg" alt="Pretzel dengan taburan garam" loading="lazy">
+                    <h4 class="nama-produk">Salted Pretzels</h4>
+                    <p class="deskripsi-produk">Pretzel gurih dengan taburan garam.</p>
+                    <p class="harga-produk">Rp 24.000</p>
+                    <button class="beli" type="button">Beli</button>
+                </article>
             </div>
         </section>
     </header>
-    <footer class="footer">
-        <div class="copyright">&copy; 2026 Kirk Store</div>
-        <div class="social">
-            <!-- <a href="">FB</a> -->
-            <!-- <a href="">IG</a> -->
-            <!-- <a href="">YT</a> -->
-        </div>
+    <footer class="footer" id="tentang">
+        <div class="copyright">&copy; 2026 Crave & Co.</div>
+        <a href="assets/image-credits.txt">Kredit foto</a>
     </footer>
 </body>
 </html>
